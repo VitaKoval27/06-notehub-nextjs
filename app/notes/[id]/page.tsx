@@ -4,7 +4,7 @@ import { dehydrate, QueryClient } from '@tanstack/react-query';
 import { getSingleNote, } from '@/lib/api';
 import type {Note }from " ../../../types/note"
 import NoteDetailsClient from './NoteDetails.client';
-import TanStackProvider from '../../../components/TanStackProvider/TanstackProvider'; 
+import TanStackProvider from '../../../components/TanStackProvider/TanStackProvider'; 
 import { notFound } from 'next/navigation';
 
 
