@@ -1,7 +1,7 @@
 import { QueryClient, dehydrate } from '@tanstack/react-query'; 
 import { fetchNotes, type FetchNotesResponse } from '@/lib/api';
-import NotesClient from './notes.client';
 import TanStackProvider from '../../components/TanStackProvider/TanStackProvider'; 
+import NotesClient from './Notes.client';
 
 
 interface NotesPageProps {
