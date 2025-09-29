@@ -11,7 +11,7 @@ import SearchBox from '../../components/SearchBox/SearchBox';
 import Pagination from '../../components/Pagination/Pagination';
 import NoteForm from '../../components/NoteForm/NoteForm';
 import Modal from '../../components/Modal/Modal';
-import Loader from '../Loading';
+import Loader from '../loading';
 import ErrorMessage from './error'; 
 import { fetchNotes, type FetchNotesResponse } from '@/lib/api';
 import css from "./Notes.module.css"; 

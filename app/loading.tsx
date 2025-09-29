@@ -1,5 +1,4 @@
-import css from "./Loader.module.css";
-
+import css from "./loading.module.css";
 const Loader = () => {
   return (
     <div className={css.loaderContainer}>
