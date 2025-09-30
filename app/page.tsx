@@ -1,9 +1,8 @@
 import css from "./home/home.module.css"
 
-  const Page = () => {
-  
-
-  return <main>
+  const Page =()=>{
+  return (
+  <main>
   <div className={css.container}>
     <h1 className={css.title}>Welcome to NoteHub</h1>
     <p className={css.description}>
@@ -18,8 +17,7 @@ import css from "./home/home.module.css"
       and productivity.
     </p>
   </div>
-</main>
-;
+</main>)
 };
 
 

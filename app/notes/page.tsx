@@ -1,4 +1,4 @@
-import { QueryClient, dehydrate } from '@tanstack/react-query'; 
+import { QueryClient, dehydrate,HydrationBoundary } from '@tanstack/react-query'; 
 import { fetchNotes, type FetchNotesResponse } from '@/lib/api';
 import TanStackProvider from '../../components/TanStackProvider/TanStackProvider'; 
 import NotesClient from './Notes.client';
@@ -30,11 +30,13 @@ export default async function NotesPage({ searchParams }: NotesPageProps) {
 
  return (
 
- <TanStackProvider state={dehydratedState}> 
- <NotesClient 
- initialQuery={initialQuery}
- initialPage={initialPage}
+ <TanStackProvider> 
+    <HydrationBoundary state={dehydratedState}> 
+      <NotesClient 
+        initialQuery={initialQuery}
+        initialPage={initialPage}
  />
+    </HydrationBoundary>
  </TanStackProvider>
  );
 }

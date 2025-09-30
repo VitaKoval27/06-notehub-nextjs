@@ -4,8 +4,6 @@ import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useDebouncedCallback } from 'use-debounce';
 import { Toaster } from 'react-hot-toast';
-
-
 import NoteList from '../../components/NoteList/NoteList';
 import SearchBox from '../../components/SearchBox/SearchBox';
 import Pagination from '../../components/Pagination/Pagination';
@@ -80,7 +78,7 @@ export default function NotesClient({ initialQuery, initialPage }: NotesClientPr
             {isError && (
                 <ErrorMessage
                     error={error as Error} 
-                    reset={handleReset}    
+                    reset={handleReset} 
                 />
             )}
 

@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { type Note,type NoteTag } from '../types/note';
 
+
 export interface FetchNotesResponse{
     notes:Note[],
     totalPages:number
@@ -89,3 +90,4 @@ export async function getSingleNote(noteId:string):Promise<Note>{
   return response.data   
     
 }
+
