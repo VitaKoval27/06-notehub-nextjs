@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NoteHub — Full-stack Next.js Note App (HW-06) 📝
 
-## Getting Started
+A feature-rich note-taking application built with **Next.js**, demonstrating CRUD operations, state management, and modern UI design.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 📝 Project Overview
+NoteHub is a platform that allows users to create, organize, and manage their daily notes efficiently. The project focuses on data persistence, interactive UI, and the power of the Next.js framework for building full-stack web applications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🛠 Tech Stack
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🔑 Key Features & My Work:
+- **CRUD Operations:** Implemented full functionality to Create, Read, Update, and Delete notes.
+- **Dynamic Content:** Used Next.js logic to handle real-time updates of the note list without full page reloads.
+- **Form Handling:** Built robust forms with validation to ensure high-quality user input.
+- **Responsive Interface:** Designed a mobile-first UI, ensuring a seamless experience for users on any device.
+- **Performance:** Optimized data fetching and rendering for a fast, app-like feel.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### 🚀 Learning Outcomes
+* Working with **Next.js API Routes** or external APIs to manage data.
+* Mastering **React Hooks** (`useState`, `useEffect`) in a Next.js context.
+* Understanding the importance of UI/UX in productivity tools.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🛠 Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/VitaKoval27/06-notehub-nextjs.git](https://github.com/VitaKoval27/06-notehub-nextjs.git)
